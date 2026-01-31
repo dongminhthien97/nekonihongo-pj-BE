@@ -75,6 +75,19 @@ tasks.withType<JavaCompile> {
     options.compilerArgs.add("-parameters")
 }
 
+tasks.getByName<BootJar>("bootJar") {
+    archiveFileName.set("nekonihongo-backend.jar")
+    destinationDirectory.set(file("build/libs"))
+    
+    // Thêm manifest để fix module issues
+    manifest {
+        attributes(
+            "Main-Class" to "org.springframework.boot.loader.JarLauncher",
+            "Start-Class" to "com.nekonihongo.backend.BackendApplication"
+        )
+    }
+}
+
 tasks.register("railwayBuild") {
     dependsOn("clean", "bootJar")
     doLast {

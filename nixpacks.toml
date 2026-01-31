@@ -1,0 +1,12 @@
+# nixpacks.toml
+[phases.setup]
+cmds = ["apt-get update && apt-get install -y openjdk-17-jdk"]
+
+[phases.install]
+cmds = ["chmod +x gradlew && ./gradlew dependencies"]
+
+[phases.build]
+cmds = ["./gradlew clean bootJar -x test"]
+
+[start]
+cmd = "java -jar build/libs/nekonihongo-backend.jar"
