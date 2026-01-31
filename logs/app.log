@@ -1,0 +1,88 @@
+2026-01-31T16:23:04.154+07:00  INFO 38256 --- [main] c.n.backend.BackendApplication           : Starting BackendApplication v1.0.0 using Java 17.0.12 with PID 38256 (D:\nekonihongo-pj-BE\build\libs\nekonihongo-backend.jar started by DTP in D:\nekonihongo-pj-BE)
+2026-01-31T16:23:04.156+07:00 DEBUG 38256 --- [main] c.n.backend.BackendApplication           : Running with Spring Boot v3.3.4, Spring v6.1.13
+2026-01-31T16:23:04.156+07:00  INFO 38256 --- [main] c.n.backend.BackendApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-01-31T16:23:04.667+07:00  INFO 38256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-31T16:23:04.725+07:00  INFO 38256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 16 JPA repository interfaces.
+2026-01-31T16:23:05.156+07:00  INFO 38256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-31T16:23:05.171+07:00  INFO 38256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-31T16:23:05.171+07:00  INFO 38256 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2026-01-31T16:23:05.214+07:00  INFO 38256 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-31T16:23:05.214+07:00  INFO 38256 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1036 ms
+2026-01-31T16:23:05.358+07:00  INFO 38256 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-31T16:23:05.419+07:00  INFO 38256 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-01-31T16:23:05.445+07:00  INFO 38256 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-31T16:23:05.609+07:00  INFO 38256 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-31T16:23:05.631+07:00  INFO 38256 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-31T16:23:05.738+07:00  INFO 38256 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13ee97af
+2026-01-31T16:23:05.739+07:00  INFO 38256 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-31T16:23:05.763+07:00  WARN 38256 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-31T16:23:05.772+07:00 DEBUG 38256 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@7434ee13) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@44a14de0)
+2026-01-31T16:23:05.772+07:00 DEBUG 38256 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@50fd739d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5e1d1524)
+2026-01-31T16:23:05.772+07:00 DEBUG 38256 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@d0a2c82) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@430aae8e)
+2026-01-31T16:23:05.772+07:00 DEBUG 38256 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@78504ce9) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4e52d2f2)
+2026-01-31T16:23:05.774+07:00 DEBUG 38256 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@12608986) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4882b9a)
+2026-01-31T16:23:05.774+07:00 DEBUG 38256 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7ec508e6) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@26d8908e)
+2026-01-31T16:23:05.774+07:00 DEBUG 38256 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@30e2016a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@75f32817)
+2026-01-31T16:23:05.774+07:00 DEBUG 38256 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@23a78c77) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4119346d)
+2026-01-31T16:23:05.774+07:00 DEBUG 38256 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@61d09475) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@d0fabc8)
+2026-01-31T16:23:06.345+07:00  INFO 38256 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-31T16:23:06.366+07:00  INFO 38256 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-31T16:23:06.506+07:00  INFO 38256 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-31T16:23:06.663+07:00 DEBUG 38256 --- [main] c.n.b.config.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
+2026-01-31T16:23:07.280+07:00  WARN 38256 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-31T16:23:07.295+07:00  INFO 38256 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-31T16:23:07.386+07:00 DEBUG 38256 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 81 mappings in 'requestMappingHandlerMapping'
+2026-01-31T16:23:07.416+07:00 DEBUG 38256 --- [main] o.s.w.s.c.annotation.WebMvcConfigurer    : Default resource handling disabled
+2026-01-31T16:23:07.423+07:00 DEBUG 38256 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-01-31T16:23:07.467+07:00 DEBUG 38256 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-01-31T16:23:07.545+07:00 DEBUG 38256 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-01-31T16:23:07.570+07:00 DEBUG 38256 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-01-31T16:23:07.711+07:00  INFO 38256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-31T16:23:07.721+07:00  INFO 38256 --- [main] c.n.backend.BackendApplication           : Started BackendApplication in 3.828 seconds (process running for 4.089)
+2026-01-31T16:24:25.919+07:00  INFO 38256 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-31T16:24:25.921+07:00  INFO 38256 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-31T16:24:25.926+07:00  INFO 38256 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-01-31T16:26:16.044+07:00  INFO 18636 --- [main] c.n.backend.BackendApplication           : Starting BackendApplication v1.0.0 using Java 17.0.12 with PID 18636 (D:\nekonihongo-pj-BE\build\libs\nekonihongo-backend.jar started by DTP in D:\nekonihongo-pj-BE)
+2026-01-31T16:26:16.045+07:00 DEBUG 18636 --- [main] c.n.backend.BackendApplication           : Running with Spring Boot v3.3.4, Spring v6.1.13
+2026-01-31T16:26:16.046+07:00  INFO 18636 --- [main] c.n.backend.BackendApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-01-31T16:26:16.561+07:00  INFO 18636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-01-31T16:26:16.608+07:00  INFO 18636 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 16 JPA repository interfaces.
+2026-01-31T16:26:17.066+07:00  INFO 18636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-01-31T16:26:17.082+07:00  INFO 18636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-31T16:26:17.083+07:00  INFO 18636 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2026-01-31T16:26:17.121+07:00  INFO 18636 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-01-31T16:26:17.121+07:00  INFO 18636 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1054 ms
+2026-01-31T16:26:17.265+07:00  INFO 18636 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-01-31T16:26:17.360+07:00  INFO 18636 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-01-31T16:26:17.396+07:00  INFO 18636 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-01-31T16:26:17.569+07:00  INFO 18636 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-01-31T16:26:17.593+07:00  INFO 18636 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-01-31T16:26:17.703+07:00  INFO 18636 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@67e11bda
+2026-01-31T16:26:17.704+07:00  INFO 18636 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-01-31T16:26:17.724+07:00  WARN 18636 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-01-31T16:26:17.733+07:00 DEBUG 18636 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@44a14de0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@50fd739d)
+2026-01-31T16:26:17.733+07:00 DEBUG 18636 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@5e1d1524) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@d0a2c82)
+2026-01-31T16:26:17.733+07:00 DEBUG 18636 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@430aae8e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@78504ce9)
+2026-01-31T16:26:17.733+07:00 DEBUG 18636 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4e52d2f2) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@12608986)
+2026-01-31T16:26:17.733+07:00 DEBUG 18636 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@4882b9a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@7ec508e6)
+2026-01-31T16:26:17.734+07:00 DEBUG 18636 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@26d8908e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@30e2016a)
+2026-01-31T16:26:17.734+07:00 DEBUG 18636 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@75f32817) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@23a78c77)
+2026-01-31T16:26:17.734+07:00 DEBUG 18636 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@4119346d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@61d09475)
+2026-01-31T16:26:17.734+07:00 DEBUG 18636 --- [main] o.h.t.d.sql.spi.DdlTypeRegistry          : addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@d0fabc8) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@12d44a2a)
+2026-01-31T16:26:18.310+07:00  INFO 18636 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-01-31T16:26:18.333+07:00  INFO 18636 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-01-31T16:26:18.509+07:00  INFO 18636 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-01-31T16:26:18.687+07:00 DEBUG 18636 --- [main] c.n.b.config.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
+2026-01-31T16:26:19.245+07:00  WARN 18636 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-01-31T16:26:19.260+07:00  INFO 18636 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-01-31T16:26:19.391+07:00 DEBUG 18636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 81 mappings in 'requestMappingHandlerMapping'
+2026-01-31T16:26:19.426+07:00 DEBUG 18636 --- [main] o.s.w.s.c.annotation.WebMvcConfigurer    : Default resource handling disabled
+2026-01-31T16:26:19.436+07:00 DEBUG 18636 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-01-31T16:26:19.482+07:00 DEBUG 18636 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-01-31T16:26:19.531+07:00 DEBUG 18636 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-01-31T16:26:19.548+07:00 DEBUG 18636 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-01-31T16:26:19.659+07:00  INFO 18636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-01-31T16:26:19.668+07:00  INFO 18636 --- [main] c.n.backend.BackendApplication           : Started BackendApplication in 3.888 seconds (process running for 4.163)
+2026-01-31T16:27:12.799+07:00  INFO 18636 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-01-31T16:27:12.801+07:00  INFO 18636 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-01-31T16:27:12.805+07:00  INFO 18636 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
