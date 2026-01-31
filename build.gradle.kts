@@ -74,3 +74,12 @@ tasks.withType<JavaCompile> {
     options.encoding = "UTF-8"
     options.compilerArgs.add("-parameters")
 }
+
+tasks.register("railwayBuild") {
+    dependsOn("clean", "bootJar")
+    doLast {
+        println("✅ Railway build completed!")
+        println("📦 JAR location: build/libs/nekonihongo-backend.jar")
+        println("📏 File size: ${file("build/libs/nekonihongo-backend.jar").length()} bytes")
+    }
+}
