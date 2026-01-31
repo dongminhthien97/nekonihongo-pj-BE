@@ -1,9 +1,0 @@
-# railway.toml
-[build]
-builder = "NIXPACKS"
-buildCommand = "./gradlew clean bootJar -x test"
-startCommand = "java -jar build/libs/nekonihongo-backend.jar"
-
-[deploy]
-healthcheckPath = "/actuator/health"
-healthcheckTimeout = 30
